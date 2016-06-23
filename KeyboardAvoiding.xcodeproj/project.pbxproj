@@ -10,13 +10,13 @@
 		D4C68D241CBDF33500797B3F /* KeyboardAvoiding.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C68D231CBDF33500797B3F /* KeyboardAvoiding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4C68D2B1CBDF33500797B3F /* KeyboardAvoiding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C68D201CBDF33500797B3F /* KeyboardAvoiding.framework */; };
 		D4C68D301CBDF33500797B3F /* KeyboardAvoidingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C68D2F1CBDF33500797B3F /* KeyboardAvoidingTests.m */; };
-		D4C68D3C1CBDF4C600797B3F /* UIScrollView+KeyboardAvoidingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C68D3A1CBDF4C600797B3F /* UIScrollView+KeyboardAvoidingAdditions.h */; };
+		D4C68D3C1CBDF4C600797B3F /* UIScrollView+KeyboardAvoidingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C68D3A1CBDF4C600797B3F /* UIScrollView+KeyboardAvoidingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4C68D3D1CBDF4C600797B3F /* UIScrollView+KeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C68D3B1CBDF4C600797B3F /* UIScrollView+KeyboardAvoidingAdditions.m */; };
-		D4C68D401CBDF5AE00797B3F /* KeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C68D3E1CBDF5AE00797B3F /* KeyboardAvoidingScrollView.h */; };
+		D4C68D401CBDF5AE00797B3F /* KeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C68D3E1CBDF5AE00797B3F /* KeyboardAvoidingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4C68D411CBDF5AE00797B3F /* KeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C68D3F1CBDF5AE00797B3F /* KeyboardAvoidingScrollView.m */; };
-		D4C68D441CBDF61D00797B3F /* KeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C68D421CBDF61D00797B3F /* KeyboardAvoidingTableView.h */; };
+		D4C68D441CBDF61D00797B3F /* KeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C68D421CBDF61D00797B3F /* KeyboardAvoidingTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4C68D451CBDF61D00797B3F /* KeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C68D431CBDF61D00797B3F /* KeyboardAvoidingTableView.m */; };
-		D4C68D481CBDF67B00797B3F /* KeyboardAvoidingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C68D461CBDF67B00797B3F /* KeyboardAvoidingCollectionView.h */; };
+		D4C68D481CBDF67B00797B3F /* KeyboardAvoidingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C68D461CBDF67B00797B3F /* KeyboardAvoidingCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4C68D491CBDF67B00797B3F /* KeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C68D471CBDF67B00797B3F /* KeyboardAvoidingCollectionView.m */; };
 /* End PBXBuildFile section */
 
@@ -410,6 +410,7 @@
 				D4C68D361CBDF33500797B3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4C68D371CBDF33500797B3F /* Build configuration list for PBXNativeTarget "KeyboardAvoidingTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +419,7 @@
 				D4C68D391CBDF33500797B3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

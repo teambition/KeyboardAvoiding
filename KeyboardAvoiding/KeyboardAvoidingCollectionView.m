@@ -59,11 +59,6 @@
     return NO;
 }
 
--(void)setFrame:(CGRect)frame {
-    [super setFrame:frame];
-    [self KeyboardAvoiding_updateContentInset];
-}
-
 -(void)setContentSize:(CGSize)contentSize {
     if (CGSizeEqualToSize(contentSize, self.contentSize)) {
         // Prevent triggering contentSize when it's already the same that

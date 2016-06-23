@@ -39,11 +39,6 @@
 #endif
 }
 
--(void)setFrame:(CGRect)frame {
-    [super setFrame:frame];
-    [self KeyboardAvoiding_updateContentInset];
-}
-
 -(void)setContentSize:(CGSize)contentSize {
     [super setContentSize:contentSize];
     [self KeyboardAvoiding_updateFromContentSizeChange];

@@ -58,12 +58,6 @@
     return NO;
 }
 
--(void)setFrame:(CGRect)frame {
-    [super setFrame:frame];
-    if ( [self hasAutomaticKeyboardAvoidingBehaviour] ) return;
-    [self KeyboardAvoiding_updateContentInset];
-}
-
 -(void)setContentSize:(CGSize)contentSize {
     if ( [self hasAutomaticKeyboardAvoidingBehaviour] ) {
         [super setContentSize:contentSize];
