@@ -39,15 +39,6 @@
 #endif
 }
 
--(void)setContentSize:(CGSize)contentSize {
-    [super setContentSize:contentSize];
-    [self KeyboardAvoiding_updateFromContentSizeChange];
-}
-
-- (void)contentSizeToFit {
-    self.contentSize = [self KeyboardAvoiding_calculatedContentSizeFromSubviewFrames];
-}
-
 - (BOOL)focusNextTextField {
     return [self KeyboardAvoiding_focusNextTextField];
     

@@ -58,20 +58,6 @@
     return NO;
 }
 
--(void)setContentSize:(CGSize)contentSize {
-    if ( [self hasAutomaticKeyboardAvoidingBehaviour] ) {
-        [super setContentSize:contentSize];
-        return;
-    }
-    if (CGSizeEqualToSize(contentSize, self.contentSize)) {
-        // Prevent triggering contentSize when it's already the same
-        // this cause table view to scroll to top on contentInset changes
-        return;
-    }
-    [super setContentSize:contentSize];
-    [self KeyboardAvoiding_updateContentInset];
-}
-
 - (BOOL)focusNextTextField {
     return [self KeyboardAvoiding_focusNextTextField];
     

@@ -11,7 +11,6 @@
 #import "UIScrollView+KeyboardAvoidingAdditions.h"
 
 @interface KeyboardAvoidingScrollView : UIScrollView <UITextFieldDelegate, UITextViewDelegate>
-- (void)contentSizeToFit;
 - (BOOL)focusNextTextField;
 - (void)scrollToActiveTextField;
 @end
