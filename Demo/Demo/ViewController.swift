@@ -9,17 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBAction func cancelButtonTapped(_ sender: UIBarButtonItem) {
-        
-        dismiss(animated: true, completion: nil)
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func cancelButtonTapped(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
 }
 
 extension ViewController: UITableViewDataSource {
@@ -33,7 +29,6 @@ extension ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TextCell", for: indexPath)
-        
         return cell
     }
 }
@@ -43,4 +38,3 @@ extension ViewController: UITableViewDelegate {
         return nil
     }
 }
-
