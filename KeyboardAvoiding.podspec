@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KeyboardAvoiding'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'A Carthage compatible version of TPKeyboardAvoiding.'
   s.description      = <<-DESC
   A Carthage compatible version of TPKeyboardAvoiding.
